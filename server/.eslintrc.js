@@ -6,5 +6,6 @@ module.exports = {
   },
   rules: {
     'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
+    'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
   },
 };
