@@ -3,7 +3,8 @@
 }
 
 .tweet{
-    margin: 10px 50px 20px;
+    margin: 25%;
+    margin-bottom: 2%;
     margin-top: 10px;
     height: auto;
     width: auto;
@@ -28,10 +29,40 @@
     color: gray;
 }
 
+#text{
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
 .img{
     float: left;
     width: 35px;
     height:35px;
     margin-left:10px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .tweet{
+        margin: 10px 70px 20px;
+        margin-top: 10px;
+        height: auto;
+        width: auto;
+        padding: 10px 0;
+        border: 1px solid;
+        background-color: #1f2e3f;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .tweet{
+        margin: 10px 350px 20px;
+        margin-top: 10px;
+        height: auto;
+        width: auto;
+        padding: 10px 0;
+        border: 1px solid;
+        background-color: #1f2e3f;
+    }
 }

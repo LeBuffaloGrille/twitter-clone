@@ -6,7 +6,8 @@ import Content from "./Content/Content";
 import Header from "./Header/Header";
 
 function App() {
-  const [tweets, setTweet] = useState([]);
+
+  const [tweets, setTweets] = useState([]);
 
   useEffect(() => {
     fetch("https://api.yourein.space/feed")
@@ -14,11 +15,10 @@ function App() {
         return res.json();
       })
       .then((data) => {
-        setTweet(data);
-        console.log(data);
+        setTweets(data);
       });
   }, []);
-
+  
   return (
     <div className="main">
       <Header/>
