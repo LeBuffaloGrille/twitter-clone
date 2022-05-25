@@ -1,14 +1,16 @@
 import React from 'react';
-import PropTypes from "prop-types"
 
+import "./Login.css"
 
 function Login(){
 
     return(
-        <div></div>
+        <div className="container">
+            <input className="input1" type="text" name="username"></input>
+            <input className="input2"type="text" name="username"></input>
+            <button className="" name="loginBtn">Login</button>
+        </div>
     );
 }
 
-Comment.propTypes = {comment: PropTypes.array};
-
-export default Comment;
+export default Login;
