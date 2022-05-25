@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react"
 
+import "./style.css"
+
 import Content from "./Content/Content";
 import Header from "./Header/Header";
 

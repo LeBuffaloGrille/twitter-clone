@@ -1,0 +1,37 @@
+.spacing{
+    padding: 15px;
+}
+
+.tweet{
+    margin: 10px 50px 20px;
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    padding: 10px 0;
+    border-radius : 5px;
+    border: 1px solid;
+    background-color: #1f2e3f;
+}
+
+.text{
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.firstTextColor{
+    color: white;
+}
+
+.secondTextColor{
+    color: gray;
+}
+
+.img{
+    float: left;
+    width: 35px;
+    height:35px;
+    margin-left:10px;
+    border-radius: 50%;
+}
